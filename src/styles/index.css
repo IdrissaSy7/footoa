@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.standings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+.standings .standings-title {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  border: 1px solid #000;
+}
+.standings .team-line {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  border: 1px solid #000;
+  border-top: 0px;
+}
+.standings .team-line .team-line-name {
+  display: grid;
+  justify-items: center;
+}
+.standings .team-line .team-line-name img {
+  width: 35px;
+  height: auto;
+}/*# sourceMappingURL=index.css.map */
